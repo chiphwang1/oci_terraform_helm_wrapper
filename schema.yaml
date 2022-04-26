@@ -66,10 +66,7 @@ variables:
       and:
         - show_advanced
 
-  create_new_oke_cluster:
-    type: boolean
-    title: "Create new OKE cluster?"
-    required: false
+ 
   
   existent_oke_cluster_id:
     type: string
@@ -79,21 +76,7 @@ variables:
         - create_new_oke_cluster     
     title: "Use existing OKE cluster OCID"
 
-  create_new_compartment_for_oke:
-    type: boolean
-    required: false
-    visible: 
-      and:
-        - create_new_oke_cluster     
-    title: "Create new compartment for OKE"
 
-  oke_compartment_description:
-    type: string
-    required: false
-    visible: 
-      and:
-        - create_new_oke_cluster     
-    title: "OKE new compartment description"
 
   cluster_options_add_ons_is_kubernetes_dashboard_enabled:
     type: boolean
