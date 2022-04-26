@@ -23,8 +23,8 @@ and [setup guide](https://www.terraform.io/docs/providers/oci/guides/version-3-u
 
 Now, you'll want a local copy of this repo. You can make that with the commands:
 
-    git clone https://github.com/oracle-quickstart/oci-arch-ci-cd-devops
-    cd oci-arch-ci-cd-devops
+    git clone https://github.com/chiphwang1/oci_terraform_helm_wrapper.git
+    cd oci_terraform_helm_wrapper
     ls
 
 ### Prerequisites
