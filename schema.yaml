@@ -70,7 +70,7 @@ variables:
   
   existent_oke_cluster_id:
     type: string
-    required: false
+    required: true
     visible: 
       not:
         - create_new_oke_cluster     
