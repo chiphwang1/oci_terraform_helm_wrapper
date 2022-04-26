@@ -15,6 +15,7 @@ variable "existent_oke_cluster_id" {
   default     = "ocid1.cluster.oc1.iad.aaaaaaaak3epxnx4ekmzrbvocmfhr7ijcgedxket53bo4i653ced7x3bu7xa"
   description = "Using existent OKE Cluster. Only the application and services will be provisioned. If select cluster autoscaler feature, you need to get the node pool id and enter when required"
 }
+/*
 variable "create_new_compartment_for_oke" {
   default     = false
   description = "Creates new compartment for OKE Nodes and OCI Services deployed.  NOTE: The creation of the compartment increases the deployment time by at least 3 minutes, and can increase by 15 minutes when destroying"
@@ -29,7 +30,8 @@ variable "cluster_options_admission_controller_options_is_pod_security_policy_en
   description = "If true: The pod security policy admission controller will use pod security policies to restrict the pods accepted into the cluster."
   default     = false
 }
-
+*/
+  
 ## OKE Visibility (Workers and Endpoint)
 
 variable "cluster_workers_visibility" {
